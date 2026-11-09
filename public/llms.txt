@@ -1,0 +1,37 @@
+# AlienMe
+
+> A free 3D browser game. Build a human disguise, live one ordinary day on
+> Earth, and find out which of six aliens you really are: Grey, Avian,
+> Reptilian, Cephalopod, Mantis or Tall White.
+
+AlienMe runs entirely in the browser (React, three.js). There is no account
+and no server: your answers and your optional face photo stay on your device,
+and progress is saved in the browser's local storage. Sharing goes through
+your device's share sheet or a download. The site uses Google Tag Manager to
+count visits.
+
+How it plays:
+
+- Build your disguise: body, skin tone, head, outfit and shoes from a cast of
+  chibi characters, or your own face from a photo.
+- Live the day: a string of small 3D rooms (bedroom, bus stop, office, beach,
+  arcade, dinner, with a party invite waiting on your phone). Each room asks a
+  question or two; every answer nudges you toward one of the aliens. Optional
+  things to do in each room change nothing in the score.
+- The reveal: your human head lifts off and your real one rises from the
+  collar. You get a share card and a GIF.
+
+The code is open source under the GNU AGPL v3 or later. The 3D models are by
+J-Toastie, Kenney, Quaternius and other artists, under CC BY 3.0 and CC0.
+
+## Source
+
+- [Source code](https://github.com/samyfodil/alienme): the full game, built with Vite
+- [README](https://github.com/samyfodil/alienme/blob/main/README.md): running it, writing the story, project layout
+- [Credits](https://github.com/samyfodil/alienme/blob/main/CREDITS.md): every 3D model's author, licence and source
+- [Licence](https://github.com/samyfodil/alienme/blob/main/LICENSE): GNU AGPL v3
+
+## Optional
+
+- [Notes for coding agents](https://github.com/samyfodil/alienme/blob/main/AGENTS.md): conventions and checks for working on the code
+- [The story](https://github.com/samyfodil/alienme/blob/main/src/data/story3d.ts): the whole day as data, its format documented at the top of the file

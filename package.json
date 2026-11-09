@@ -1,0 +1,40 @@
+{
+  "name": "alienme",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Earthling Integration Assessment — build your human disguise, take the test, discover which alien you really are.",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "story:check": "node scripts/check-story.mjs",
+    "typecheck": "tsc",
+    "test": "tsc && vitest run",
+    "story:play": "node scripts/play-day.mjs",
+    "render:images": "node scripts/render-images.mjs",
+    "render:hill": "node scripts/render-hill.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "gifenc": "^1.0.3",
+    "postprocessing": "^6.36.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "playwright": "^1.58.2",
+    "typescript": "^7.0.2",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.9"
+  }
+}
